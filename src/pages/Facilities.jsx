@@ -8,7 +8,7 @@ const Facilities = () => {
   const departments = [
     {
       name: "General Medicine",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      image: "/images/gallery/fertility-center.jpg",
       description: "Comprehensive primary care services with modern diagnostic facilities.",
       features: [
         "Advanced diagnostic equipment",
@@ -19,7 +19,7 @@ const Facilities = () => {
     },
     {
       name: "Emergency Department",
-      image: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      image: "/images/gallery/emergency.jpg",
       description: "24/7 emergency care facility with rapid response teams.",
       features: [
         "Trauma care unit",
@@ -30,7 +30,7 @@ const Facilities = () => {
     },
     {
       name: "Diagnostic Center",
-      image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      image: "/images/gallery/diagnostic.jpeg",
       description: "State-of-the-art imaging and laboratory services.",
       features: [
         "Digital X-ray and ultrasound",
@@ -44,7 +44,7 @@ const Facilities = () => {
   const infrastructure = [
     {
       name: "Operation Theaters",
-      image: "https://images.unsplash.com/photo-1581595219315-a187dd40c322?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      image: "/images/gallery/surgical.jpeg",
       description: "Modern surgical suites with advanced technology.",
       features: [
         "Laminar airflow systems",
@@ -55,7 +55,7 @@ const Facilities = () => {
     },
     {
       name: "Patient Wards",
-      image: "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      image: "/images/gallery/room-facility.jpg",
       description: "Comfortable inpatient facilities for recovery.",
       features: [
         "Private and semi-private rooms",
@@ -66,7 +66,7 @@ const Facilities = () => {
     },
     {
       name: "Hospital Campus",
-      image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      image: "/images/gallery/02.jpg",
       description: "Modern healthcare facility designed for patient comfort.",
       features: [
         "Spacious environment",
@@ -127,7 +127,7 @@ const Facilities = () => {
                   viewport={{ once: true }}
                   className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow group border border-blue-100"
                 >
-                  <div className="relative h-48 overflow-hidden">
+                  <div className="relative h-70 overflow-hidden">
                     <img
                       src={dept.image}
                       alt={dept.name}
@@ -170,7 +170,7 @@ const Facilities = () => {
                   viewport={{ once: true }}
                   className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow group border border-blue-100"
                 >
-                  <div className="relative h-48 overflow-hidden">
+                  <div className="relative h-70 overflow-hidden">
                     <img
                       src={item.image}
                       alt={item.name}
